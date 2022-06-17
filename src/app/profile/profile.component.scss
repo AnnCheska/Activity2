@@ -1,0 +1,52 @@
+.profile {
+    margin: 0 auto;
+
+    .header {
+        height: 200px;
+
+        .avatar {
+            width: 160px;
+            height: 160px;
+            position: relative;
+            margin: 0 auto;
+
+            img {
+                display: block;
+                border-radius: 50%;
+                position: absolute;
+                bottom: calc(-1*(80px + 4px));
+                border: 5px solid #4912c9;
+                background-color: #fff;
+            }
+        }
+    }
+}
+
+.profile-body {
+    background-color: #ffffff;
+    padding: 30px;
+    height: calc(100vh - (200px + 56px));
+    overflow: hidden;
+    position: center;
+
+    .user-meta {
+        padding-top: 40px;
+
+        .name {
+            font-size: 24px;
+            font-weight: 600;
+            color: #0a0c0e;
+        }
+
+        .work {
+            font-size: 20px;
+            font-weight: 500;
+            color: #0e1316;
+        }
+        .message {
+            font-size: 90%;
+            color: #090a0a;
+            margin: 0 auto;
+        }
+    }
+}
